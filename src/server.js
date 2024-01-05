@@ -10,7 +10,7 @@ const app = express();
 app.use(
     "/graphql",
     cors({
-        origin: FRONTEND_URI,
+        origin: "https://frontend-proyect3.onrender.com",
         credentials: true,
       }),
     graphqlHTTP({
